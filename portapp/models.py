@@ -21,10 +21,15 @@ class Image(models.Model):
     image_path = models.ImageField(upload_to = 'articles/', null=True,blank=True)
 
     def __str__(self):
-        return self.first_name
+        return self.name
 
     def save_image(self):
         self.save()
+
+    @classmethod
+    def search_by_category(cls,search_term):
+        images = cls.objects.filter(category__icontains=search_term)
+        return images
 
     class meta:
         ordering =['name']
