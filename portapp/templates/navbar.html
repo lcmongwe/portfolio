@@ -27,7 +27,7 @@
       </li>
 
     </ul>
-    <form class="d-flex" method="POST" action="">
+    <form class="d-flex" method="POST" action="{% url 'search_category'%}">
       {%csrf_token%}
         <input
         class="form-control mr-sm-2"

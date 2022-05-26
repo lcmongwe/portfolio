@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content%}
+<center>
+
+{%if searched%}
+<h1> You Searched For {{searched}}</h1>
+<br>
+{% for images in categories %}
+
+<div class="searched-images">
+
+<p>{{images.name}}</p>
+<p>{{images.category}}</p>
+  <img
+    src="{{images.image_path.url}}"
+    class="img-responsive"
+    alt="Image"
+    id="images"
+    align="center"
+  />
+
+ <br>
+</div>
+{%endfor%}
+
+{%else%}
+<h1>
+    you have no searches for {{searched}}
+</h1>
+{%endif%}
+
+</center>
+{%endblock%}

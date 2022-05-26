@@ -13,3 +13,13 @@ def home(request):
 def big_image(request,image_id):
     image=Image.objects.get(pk=image_id)
     return render(request, 'big_image.html',{'image':image,})
+
+def search_category(request):
+    if request.method == 'POST':
+        searched=request.POST.get('searched')
+        name=Image.objects.filter(name__contains=searched)
+        return render(request, 'searched_images.html',{'searched':searched,'name':name,})
+       
+
+    else:
+        return render(request, 'searched_images.html',{})
