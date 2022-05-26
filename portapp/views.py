@@ -7,5 +7,5 @@ from .models import Image,Location,Category
 # Create your views here.
 
 def home(request):
-    # event_list=Event.objects.all().order_by('-name')
-    return render(request, 'home.html',{})
+    image_list=Image.objects.all().order_by('name')
+    return render(request, 'home.html',{'image_list':image_list})

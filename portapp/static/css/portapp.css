@@ -7,6 +7,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* HOME.HTML */
+.images ul li img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.images ul li{
+    list-style: none;
+}
+/* HOME.HTML ENDS */
 
  /* NAVBAR */
 nav{
@@ -65,10 +76,10 @@ nav ul li .active{
 
 /* FOOTER */
 footer{
-    position: absolute;
+    /* position: absolute;
     bottom:0;
     left:0;
-    right:0;
+    right:0; */
 
     background:#505d61;
     height: auto;
