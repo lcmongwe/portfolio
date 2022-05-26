@@ -18,7 +18,7 @@ class Image(models.Model):
     location=models.ForeignKey(Location,on_delete=models.CASCADE)
     category=models.ForeignKey(Category,on_delete=models.CASCADE)
     description = models.TextField(max_length = 500,blank =True)
-    article_image = models.ImageField(upload_to = 'articles/', null=True,blank=True)
+    image_path = models.ImageField(upload_to = 'articles/', null=True,blank=True)
 
     def __str__(self):
         return self.first_name
