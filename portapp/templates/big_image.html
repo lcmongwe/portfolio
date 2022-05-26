@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content%}
+
+<div class="card big_image">
+  <strong allign="center"> {{image}}</strong>
+
+  <img
+    src="{{image.image_path.url}}"
+    class="img-responsive"
+    alt="Image"
+    id="images"
+    align="center"
+  />
+</div>
+
+{%endblock%}
+
+
