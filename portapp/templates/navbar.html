@@ -18,12 +18,28 @@
       <li class="nav-item">
         <a class="nav-link active" href="{% url 'home' %}">Home</a>
       </li>
-            <li class="nav-item">
-        <a class="nav-link" href="">Gallery</a>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gallery
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'category' '1' %}">Fashion</a>
+          <a class="dropdown-item" href="{% url 'category' '2' %}">food</a>
+          <a class="dropdown-item" href="{% url 'category' '3' %}">Nature</a>
+          <a class="dropdown-item" href="{% url 'category' '4' %}">General</a>
+        </div>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="">Locations</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Locations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'location' '1' %}">Nairobi</a>
+          <a class="dropdown-item" href="{% url 'location' '2' %}">Mombasa</a>
+          <a class="dropdown-item" href="{% url 'location' '3' %}">Kisumu</a>
+          <a class="dropdown-item" href="{% url 'location' '4' %}">Nakuru</a>
+        </div>
       </li>
 
     </ul>

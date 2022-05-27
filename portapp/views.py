@@ -6,6 +6,16 @@ from .models import Image,Location,Category
 
 # Create your views here.
 
+def location(request,location):
+        locations=Image.objects.filter(location=location)
+        return render(request, 'locations.html',{'locations':locations})
+       
+
+def category(request,category):
+        categories=Image.objects.filter(category=category)
+        return render(request, 'categories.html',{'categories':categories})
+    
+
 def home(request):
     image_list=Image.objects.all().order_by('name')
     return render(request, 'home.html',{'image_list':image_list})
