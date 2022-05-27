@@ -23,7 +23,10 @@
               > View Image </a
             >
 
-            <a href="" class="btn btn-outline-danger btn-sm">Delete Image</a>
+                   <a
+      href="{% url 'delete_image' image.id %}"
+      class="btn btn-outline-danger btn-sm"
+    >Delete image</a>
           </div>
         </div>
     </div>

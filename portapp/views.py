@@ -23,3 +23,8 @@ def search_category(request):
 
     else:
         return render(request, 'searched_images.html',{})
+
+def delete_image(request, image_id):
+    image=Image.objects.get(pk=image_id)
+    image.delete()
+    return redirect('home')
