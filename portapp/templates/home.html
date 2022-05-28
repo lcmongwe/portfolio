@@ -39,6 +39,7 @@
 </button>
       <div class="card-body">
         <h5 class="card-title">{{image.name}}</h5>
+         <h5 class="card-title" id="content-copy">{{image.url}}  </h5> <button id="btn-copy">copy</button> 
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Category: {{image.category}}</li>
@@ -63,5 +64,13 @@
 
   {%endfor%}
 </div>
-
+    <script>
+      const copyButton = document.getElementById('btn-copy');
+      copyButton.addEventListener('click',async(event) => {
+        const content = document.getElementById('content-copy').textContent;
+        await navigator.clipboard.writeText(content);
+        const copied = await navigator.clipboard.readText();
+        console.log(copied);
+      })
+    </script>
 {%endblock%}
