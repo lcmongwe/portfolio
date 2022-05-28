@@ -21,7 +21,7 @@ This is a simple Django program that allows a user to view various photos fro di
 ### :pushpin:PROJECT SETUP INSTRUCTIONS
 
 - Open terminal {Ctrl +Alt + T}
-- git clone https://github.com/lcmongwe/myportfolio.git
+- git clone https://github.com/lcmongwe/portfolio.git
 - cd myblog
 - code . or atom . depending on your text editor
 - python3 manage.py runserver
