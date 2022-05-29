@@ -23,6 +23,9 @@
 /* BIG IMAGE ENDS */
 
 /* HOME.HTML */
+#btn-copy:hover{
+  background-color: greenyellow;
+}
 
 .home-images {
   display: flex;
