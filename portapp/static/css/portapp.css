@@ -23,6 +23,10 @@
 /* BIG IMAGE ENDS */
 
 /* HOME.HTML */
+.immg img{
+  height:800px;
+  width:800px;
+}
 
 
 #btn-copy:hover{
