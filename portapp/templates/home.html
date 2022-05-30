@@ -5,7 +5,7 @@
   {% for image in image_list %}
 
   <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade mymodal" id="exampleModalCenter{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -29,7 +29,7 @@
   <div class="home-image">
     <div class="card" style="width: 18rem">
 
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter{{image.id}}">
         <img
         class="card-img-top"
         src="{{image.image_path.url}}"
