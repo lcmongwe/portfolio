@@ -1,0 +1,1050 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "portapp",
+        "model": "location"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "portapp",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "portapp",
+        "model": "image"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dorgkeau6fmhalbb16higozvsu2341ct",
+    "fields": {
+        "session_data": ".eJxVjDsOgzAQRO_iOrJs1viTMj1nsHa9JiaJjIShinL3gESRaLp5b-YtIm5riVvLS5xYXIUWl9-OMD1zPQA_sN5nmea6LhPJQ5EnbXKYOb9up_t3ULCVfT264JCU88ZxILPHQw8mZaPQEmWrR5uCAurBMqUEHjRobbkLqDpA8fkC4RE3kw:1nuHo5:QJBOZZrgayqdKyxe59kdpEapuZFbTGJqvExIsk68xsg",
+        "expire_date": "2022-06-09T18:01:57.089Z"
+    }
+},
+{
+    "model": "portapp.location",
+    "pk": 1,
+    "fields": {
+        "name": "nairobi"
+    }
+},
+{
+    "model": "portapp.location",
+    "pk": 2,
+    "fields": {
+        "name": "mombasa"
+    }
+},
+{
+    "model": "portapp.location",
+    "pk": 3,
+    "fields": {
+        "name": "kisumu"
+    }
+},
+{
+    "model": "portapp.location",
+    "pk": 4,
+    "fields": {
+        "name": "nakuru"
+    }
+},
+{
+    "model": "portapp.category",
+    "pk": 1,
+    "fields": {
+        "name": "fashion"
+    }
+},
+{
+    "model": "portapp.category",
+    "pk": 2,
+    "fields": {
+        "name": "food"
+    }
+},
+{
+    "model": "portapp.category",
+    "pk": 3,
+    "fields": {
+        "name": "nature"
+    }
+},
+{
+    "model": "portapp.category",
+    "pk": 4,
+    "fields": {
+        "name": "general"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 1,
+    "fields": {
+        "name": "whole-chicken",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 1,
+        "category": 2,
+        "description": "this is the best way to have your chicken, whole and juicy",
+        "image_path": "articles/alison-marras-GyV6SL_fKsI-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 2,
+    "fields": {
+        "name": "tilapia",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 3,
+        "category": 2,
+        "description": "very nice and tastey fish",
+        "image_path": "articles/clint-bustrillos-3_M4NxDo89A-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 3,
+    "fields": {
+        "name": "sea",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 2,
+        "category": 3,
+        "description": "visit the beach",
+        "image_path": "articles/boxed-water-is-better-by64zfQx1Do-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 4,
+    "fields": {
+        "name": "mt ooh",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 4,
+        "category": 3,
+        "description": "this is the best moutain for hiking and moutain sports.",
+        "image_path": "articles/mads-schmidt-rasmussen-xfngap_DToE-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 5,
+    "fields": {
+        "name": "rfvalley",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 4,
+        "category": 3,
+        "description": "seen best from a high point... the the most amaizing experience you can ever have",
+        "image_path": "articles/mario-alvarez-M1YdS0g8SRA-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 6,
+    "fields": {
+        "name": "hiking",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 4,
+        "category": 4,
+        "description": "gt yourself this amaizing experience",
+        "image_path": "articles/valerie-fomina-Qs4haPn5tAE-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 7,
+    "fields": {
+        "name": "ridding",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 1,
+        "category": 4,
+        "description": "wonderful terrain for such an experience..it is indeed great.",
+        "image_path": "articles/david-dvoracek-gL6a3KuYyO4-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 8,
+    "fields": {
+        "name": "free-dress",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 1,
+        "category": 1,
+        "description": "very good in hot weather",
+        "image_path": "articles/hong-nguyen-FO-zQd7Wqio-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 9,
+    "fields": {
+        "name": "lion",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 3,
+        "category": 3,
+        "description": "king of the jungle",
+        "image_path": "articles/francesco-de-tommaso-ZxNKxnR32Ng-unsplash.jpg"
+    }
+},
+{
+    "model": "portapp.image",
+    "pk": 10,
+    "fields": {
+        "name": "track-suit",
+        "url": "https://unsplash.com/s/photos/",
+        "location": 1,
+        "category": 1,
+        "description": "good for free style mode",
+        "image_path": "articles/dom-hill-nimElTcTNyY-unsplash.jpg"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add location",
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "codename": "add_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change location",
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "codename": "change_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete location",
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "codename": "delete_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view location",
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "codename": "view_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add category",
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change category",
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view category",
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add image",
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "codename": "add_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change image",
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "codename": "change_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete image",
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "codename": "delete_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view image",
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "codename": "view_image"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$cKW0Pm9oj5nCE8JrbLEVpO$t/tzAQpN+rFIZ74mCzvgwYcGPNIhMetrv/rh34DxUak=",
+        "last_login": "2022-05-26T18:01:57.085Z",
+        "is_superuser": true,
+        "username": "lucy",
+        "first_name": "",
+        "last_name": "",
+        "email": "lcmongwe@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-26T16:29:16.046Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-05-26T18:03:00.529Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "fashion",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-05-26T18:03:07.462Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "food",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-05-26T18:03:14.524Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "nature",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-05-26T18:03:29.239Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "general",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-05-26T18:03:57.213Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "object_id": "1",
+        "object_repr": "nairobi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-05-26T18:04:05.351Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "object_id": "2",
+        "object_repr": "mombasa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-05-26T18:04:13.377Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "object_id": "3",
+        "object_repr": "kisumu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-05-26T18:04:31.738Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "location"
+        ],
+        "object_id": "4",
+        "object_repr": "nakuru",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-05-26T18:19:03.058Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "1",
+        "object_repr": "whole-chicken",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-05-26T18:19:57.115Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "2",
+        "object_repr": "tilapia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-05-26T18:20:37.858Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "3",
+        "object_repr": "sea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-05-26T18:23:19.874Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "4",
+        "object_repr": "mt ooh",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-05-26T18:24:56.520Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "5",
+        "object_repr": "rfvalley",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-05-26T18:26:07.040Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "hiking",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-05-26T18:28:29.916Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "7",
+        "object_repr": "ridding",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-05-26T18:29:35.604Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "8",
+        "object_repr": "free-dress",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-05-26T18:30:15.307Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "9",
+        "object_repr": "lion",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-05-26T18:31:11.081Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "10",
+        "object_repr": "track-suit",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-05-27T07:47:53.942Z",
+        "user": [
+            "lucy"
+        ],
+        "content_type": [
+            "portapp",
+            "image"
+        ],
+        "object_id": "11",
+        "object_repr": "toasted bread",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
