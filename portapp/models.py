@@ -47,6 +47,11 @@ class Image(models.Model):
         images = cls.objects.filter(category__icontains=search_term)
         return images
 
+    @classmethod
+    def filter_by_location(cls,location):
+        images = cls.objects.filter(location)
+        return images
+
     class meta:
         ordering =['name']
 

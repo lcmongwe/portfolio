@@ -44,10 +44,6 @@ height:50%;
 }
 
 
-#btn-copy:hover{
-  background-color: greenyellow;
-}
-
 .home-images {
   display: flex;
   flex-direction: row;
