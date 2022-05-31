@@ -5,6 +5,8 @@ from .models import Image,Location,Category
 
 
 # Create your views here.
+def landing(request):
+    return render(request, 'landing.html')
 
 def location(request,location):
         locations=Image.objects.filter(location=location)

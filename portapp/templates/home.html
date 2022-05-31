@@ -1,11 +1,11 @@
 {% extends 'base.html' %} {% block content%}
 
 
-<div class="home-images">
+<div class="home-images"  style="background-color: #465256;">
   {% for image in image_list %}
 
   <!-- Modal -->
-<div class="modal fade mymodal" id="exampleModalCenter{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade mymodal large" id="exampleModalCenter{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">

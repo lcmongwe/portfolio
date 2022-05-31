@@ -1,0 +1,68 @@
+{% extends 'base.html' %} {% block content%}
+
+<div
+  class="bg-image"
+  style="background-image: url('../static/images/gallery.jpg'); height: 100vh"
+>
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <h1>My Travel Gallery</h1>
+    </div>
+  </div>
+  
+
+ <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../static/images/dom-hill-nimElTcTNyY-unsplash.jpg" alt="First slide" alt="image" width="400px" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../static/images/pim-myten-Dt1e0VRRW1A-unsplash.jpg" alt="Second slide" alt="image" width="400px" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../static/images/hong-nguyen-FO-zQd7Wqio-unsplash.jpg" alt="Third slide" alt="image" width="400px" height="400px">
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="../static/images/valerie-fomina-Qs4haPn5tAE-unsplash.jpg" alt="Third slide" alt="image" width="400px" height="400px">
+    </div>
+  </div>
+
+
+  
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+                <a class="nav-link active" href="{% url 'home' %}"
+       style="text-align:center;" ><button type="button" class="btn btn-success btn-lg">
+          View Gallery
+        </button></a>
+    </div>
+    <div class="col-md-4">
+
+    </div>
+  </div>
+
+ 
+</div>
+      
+  
+
+
+{%endblock%}

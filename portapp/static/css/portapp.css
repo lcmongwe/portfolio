@@ -8,6 +8,14 @@
   
 }
 
+.landing{
+  background-image: url(../images/gallery.jpg);
+
+}
+
+.landing h2{
+  color: red;
+}
 /* BIG IMAGE.HTML */
 .big_image {
   background-color: #c0d96f;
@@ -24,6 +32,12 @@
 /* BIG IMAGE ENDS */
 
 /* HOME.HTML */
+
+.large{
+height:50%;
+}
+
+
 .immg img{
   height:800px;
   width:800px;
