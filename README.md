@@ -5,7 +5,7 @@ My-Portfolio
 
 ## SCREENSHOT
 
-<!-- ![MYPORTFOLIO](/app/static/images/PORcreenshot.png) -->
+![MYPORTFOLIO](./portapp/static/images/screen2.png)
 
 ### :bulb: PROJECT DESCRIPTION
 
